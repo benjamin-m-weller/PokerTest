@@ -7,6 +7,9 @@ def readValues():
 
         for number_line in file:
             for number in number_line:
+                if (len(number)<5): #Used to weed out "non-poker hands"
+                    #print(number)
+                    continue
                 returned.append(list(number))
     return returned
 

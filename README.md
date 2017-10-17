@@ -27,7 +27,7 @@ Multiplying by the sample size n provides the expected number of occurrences of 
 
 # Solution
 
-I decided that a hashmap would be a reasonable data structure to use here. I came to this conclusion simply because the classifications were based upon the number of repetitions of a digit in a random number, as opposed to say run in a "poker hand".
+I decided that a hashmap would be a reasonable data structure to use here. I came to this conclusion simply because the classifications were based upon the number of repetitions of a digit in a random number, as opposed to say a run in a "poker hand".
 
 After choosing a hashmap the problem came easily. I simply had to split each number into a char array, add them to the hashmap if they didn't exist already and assign a 1 as their value, or increment the value by one if the key did exist.
 

@@ -8,12 +8,19 @@ Another test for independence is called the poker test, in which the occurrence 
 
 Pattern	                      Probability
 Five different	              .9*.8*.7*.6 = .3024
+
 Exactly one pair	            (5!)/(2!*3!)*.9*.8*.7*.1 = .5040
+
 Exactly two pairs	            [(5!)/(4!)]*[(3!/(2!)]*.1*.1*.9*.8 = .1080
+
 Exactly three of a kind	      [(5!)/[(3!)*(2!)]*.9*.8*.1*.1 = .0720
+
 Three of kind plus one pair	  [(5!)/[(3!)*(2!)]*.9*.1*.1*.1 = .0090
+
 Four of a kind	              [(5!)/(4!)]*.9*.1*.1*.1 = .0045
+
 Five of a kind	              .1*.1*.1*.1 = .0001
+
 
 Multiplying by the sample size n provides the expected number of occurrences of each pattern.  For this task, you are to process the set of 800 random numbers in the table, for each one determining which of the 7 patterns they fit in the poker hand.
 

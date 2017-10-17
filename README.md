@@ -7,6 +7,7 @@ This project was based off of a Simulation Models assignment I was given. I deve
 Another test for independence is called the poker test, in which the occurrence of patterns of digits in the sample is compared with the known probabilities of these patterns occurring in theory, with the patterns being those possible in a poker hand.  More specifically, the following probabilities for patterns in five-digit numbers are known:
 
 Pattern	                      Probability
+
 Five different	              .9*.8*.7*.6 = .3024
 
 Exactly one pair	            (5!)/(2!*3!)*.9*.8*.7*.1 = .5040

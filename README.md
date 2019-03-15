@@ -25,4 +25,4 @@ I decided that a hashmap would be a reasonable data structure to use here. I cam
 
 After choosing a hashmap the problem came easily. I simply had to split each number into a char array, add them to the hashmap if they didn't exist already and assign a 1 as their value, or increment the value by one if the key did exist.
 
-Finally, my approach lent to easy classification, each type of possible output of the hashmap was easily testable in a big decision tree, and thus classification only took a few lines.
+Finally, my approach lent to easy classification, each type of possible output of the hashmap was easily testable in a big if statement, and thus classification only took a few lines.
